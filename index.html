@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Search</title>
+</head>
+<body>
+
+    <h1>Mobile Phone Search</h1>
+
+    <label for="searchBy">Search By:</label>
+    <select id="searchBy">
+        <option value="brand">Brand</option>
+        <option value="model">Model</option>
+        <option value="price">Price</option>
+        <option value="camera">Camera</option>
+    </select>
+
+    <label for="searchInput">Enter Value:</label>
+    <input type="text" id="searchInput">
+
+    <button onclick="searchMobilePhones()">Search</button>
+
+    <div id="result">
+        
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mobile Phone Search</h1>
+        <label for="searchBy">Filters:</label>
+        <select >
+            <option id="searchBy" value="brand">Brand</option>
+            <option  id="searchBy" value="model">Model</option>
+            <option id="searchBy" value="price">Price</option>
+            <option id="searchBy" value="camera">Camera</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Enter your search">
+        <button onclick="searchPhones()">Search</button>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
